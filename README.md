@@ -101,3 +101,36 @@ El programa recibe como argumento el número de "*" que tendrá como base (centr
 # Ejemplo de ejecución: 
 ./t3_lapellido.pl 15
 ```
+```bash
+# Salida en terminal:
+       *
+       **
+       ***
+       ****
+       *****
+       ******
+       *******
+***************
+ *************
+  ***********
+   *********
+    *******
+     *****
+      ***
+       *
+```   
+```bash
+# Ejemplo de ejecución: 
+./t3_lapellido.pl 7
+```
+```bash
+# Salida en terminal:
+   *
+   **
+   ***
+*******
+ *****
+  ***
+   *
+```   
+
