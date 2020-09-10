@@ -159,17 +159,19 @@ cat p1_lapellido.txt
 ```
 ```bash
 Host: 192.168.1.1
-PUERTO	PROTOCOLO	ESTADO	SERVICIO	    VERSION
-53    	tcp		     open	 domain	       dnsmasq 2.71
-80	    tcp		     open	 http	       nginx
-139 	tcp		     open	 netbios-ssn   Samba smbd 3.X (workgroup: HUAWEI)
-445	    tcp		     open	 netbios-ssn   Samba smbd 3.X (workgroup: HUAWEI)
+PUERTO	PROTOCOLO	ESTADO	SERVICIO	VERSION
+53	tcp		open	domain		dnsmasq 2.71
+80	tcp		open	http		nginx
+139	tcp		open	netbios-ssn		Samba smbd 3.X (workgroup: HUAWEI)
+445	tcp		open	netbios-ssn		Samba smbd 3.X (workgroup: HUAWEI)
+8192	tcp		open	http		nginx
+8193	tcp		open	http		nginx
 						
-Host: 192.168.1.24
-PUERTO	PROTOCOLO	ESTADO	SERVICIO	    VERSION
-22	        tcp		open	ssh		OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0)
-25	        tcp		open	smtp	Courier smtpd
-143	        tcp		open	imap	Courier Imapd (released 2011)
-631	        tcp		open	ipp		CUPS 2.1
+Host: 192.168.1.35
+PUERTO	PROTOCOLO	ESTADO	SERVICIO	VERSION
+22	tcp		open	ssh		OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0)
+25	tcp		open	smtp		Courier smtpd
+143	tcp		open	imap		Courier Imapd (released 2011)
+631	tcp		open	ipp		CUPS 2.1
 
 ```
