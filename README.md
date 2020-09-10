@@ -134,3 +134,42 @@ El programa recibe como argumento el número de "*" que tendrá como base (centr
    *
 ```   
 
+## Práctica 1: Escáner de red
+
+Elaborar un script de Perl que realice un análisis de red con nmap (nmap –sP red/mascara) y elabore un reporte en txt con estadísticas sobre los resultados.
+
+El script debe recibir como argumento la red/máscara que se va a analizar.
+
+El nombre del archivo que contiene los resultadas debe llamarse: p1_lapellido.txt
+
+Las estadísticas que deben reportarse son por Host: Puerto, Protocolo, Estado, Servicio, Versión
+
+**Nota:** el formato para las estadísiticas es libre, se anexa un ejemplo de salida.
+```bash
+# Ejemplo de ejecución:
+./p1_lapellido.pl 192.168.1.0/24
+```
+```bash
+# Salida en terminal:
+Se escribieron las estadisticas en el archivo: p1_lapellido.txt
+```
+```bash
+# Ejemplo de salida de p1_lapellido.txt:
+cat p1_lapellido.txt
+```
+```bash
+Host: 192.168.1.1
+PUERTO	PROTOCOLO	ESTADO	SERVICIO	    VERSION
+53    	tcp		     open	 domain	       dnsmasq 2.71
+80	    tcp		     open	 http	       nginx
+139 	tcp		     open	 netbios-ssn   Samba smbd 3.X (workgroup: HUAWEI)
+445	    tcp		     open	 netbios-ssn   Samba smbd 3.X (workgroup: HUAWEI)
+						
+Host: 192.168.1.24
+PUERTO	PROTOCOLO	ESTADO	SERVICIO	    VERSION
+22	        tcp		open	ssh		OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0)
+25	        tcp		open	smtp	Courier smtpd
+143	        tcp		open	imap	Courier Imapd (released 2011)
+631	        tcp		open	ipp		CUPS 2.1
+
+```
