@@ -202,7 +202,7 @@ Los resultados deben escribirse en un nuevo archivo.
 ./p2_lapellido.pl 
 ```
 
-```python
+```bash
 # Salida en terminal:
 El archivo de salida debe llamarse: p2_lapellido.txt y el formato de las estadísticas es libre.
 ```
@@ -217,7 +217,7 @@ Utilizando el reporte generado de la práctica anterior (p2_apellido.txt), gener
 ./p3_lapellido.pl
 ```
 
-```python
+```bash
 # Salida en terminal:
 El formato de las gráficas es libre
 ```
