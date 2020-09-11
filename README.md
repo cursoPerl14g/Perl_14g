@@ -193,9 +193,9 @@ Utilizando el reporte generado de la práctica anterior (o generando uno nuevo),
 
 **Nota:** Recordemos que el TTL ayuda a detectar el SO del host 
 
-Windows: 64>TTL<=128
+Windows: 64<TTL<=128
 
-Linux: 0>TTL<=64 y 128>TTL<=255
+Linux: 0<=TTL<=64 y 128<TTL<=255
 
 Desconocido: -1
 
