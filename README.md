@@ -199,7 +199,7 @@ Linux: 0<=TTL<=64 y 128<TTL<=255
 
 Desconocido: -1
 
-* Número de host por SO (Linux, Windows, MAC)
+* Número de host por SO (Linux, Windows o desconocido)
 
 Los resultados deben escribirse en un nuevo archivo.
 
