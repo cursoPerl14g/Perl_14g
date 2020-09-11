@@ -191,7 +191,13 @@ Utilizando el reporte generado de la práctica anterior (o generando uno nuevo),
 
 * SO de cada host (usar ping)
 
-**Nota:** Recordemos que el TTL ayuda a detectar el SO del host (Windows: 64>TTL<=128, Linux: 0>TTL<=64 y 128>TTL<=255, Desconocido: -1).
+**Nota:** Recordemos que el TTL ayuda a detectar el SO del host 
+
+Windows: 64>TTL<=128
+
+Linux: 0>TTL<=64 y 128>TTL<=255
+
+Desconocido: -1).
 
 * Número de host por SO (Linux, Windows, MAC)
 
