@@ -175,3 +175,49 @@ PUERTO	PROTOCOLO	ESTADO	SERVICIO	VERSION
 631	tcp		open	ipp		CUPS 2.1
 
 ```
+## Práctica 2: Estadísticas de red
+
+Utilizando el reporte generado de la práctica anterior (o generando uno nuevo), obtener estadísticas detalladas:
+
+* Número de hosts que utilizan cada puerto detectado
+
+* Número de puertos segun su clasificación (bien conocidos, registrados y de propósito general)
+
+* Número de puertos segun su estado (abierto, filtrado, etc)
+
+* Número de puertos según el protocolo (tcp y udp)
+
+* Número de puertos activos por host
+
+* SO de cada host (usar ping)
+
+* Número de host por SO (Linux, Windows, MAC)
+
+Los resultados deben escribirse en un nuevo archivo.
+
+**Nota:** Realizar el escaneo a un segmento de red diferente de 127.x.x.x/x.
+
+```bash
+# Ejemplo de ejecución:
+./p2_lapellido.pl 
+```
+
+```python
+# Salida en terminal:
+El archivo de salida debe llamarse: p2_lapellido.txt y el formato de las estadísticas es libre.
+```
+## Práctica 3: Gráficas de estadísticas de red
+
+Utilizando el reporte generado de la práctica anterior (p2_apellido.txt), generar las gráficas necesarias.
+
+**Nota:** Instalar módulos de CPAN para generar las gráficas.
+
+```bash
+# Ejemplo de ejecución:
+./p3_lapellido.pl
+```
+
+```python
+# Salida en terminal:
+El formato de las gráficas es libre
+```
