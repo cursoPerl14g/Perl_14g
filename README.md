@@ -190,12 +190,13 @@ Utilizando el reporte generado de la práctica anterior (o generando uno nuevo),
 * Número de puertos activos por host
 
 * SO de cada host (usar ping)
+**Nota:** Recordemos que el TTL ayuda a detectar el SO del host (Windows: 64>TTL<=128, Linux: 0>TTL<=64 y 128>TTL<=255, Desconocido: -1).
 
 * Número de host por SO (Linux, Windows, MAC)
 
 Los resultados deben escribirse en un nuevo archivo.
 
-**Nota:** Realizar el escaneo a un segmento de red diferente de 127.x.x.x/x.
+**Nota:** Realizar el escaneo a un segmento de red que permita obtener las estadísticas, por ejemplo, el segmento privado de su red (192.x.x.x/x, 168.x.x.x/x), diferente de 127.x.x.x/x.
 
 ```bash
 # Ejemplo de ejecución:
