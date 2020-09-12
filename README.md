@@ -270,11 +270,13 @@ Realizar una calculadora científica que contenga las funciones:
 
 Seno, coseno, tangente, cotangente, operaciones aritmeticas(/ + - *), raíz cuadrada, potencia (sin usar función predefinida), factorial (sin usar función predefinida).
 
-* En el caso de operadores aritméticos se pueda usar más de una operación (Ingresar los elementos y operación separados por un espacio)
+* La entrada debe ser una cadena con las operaciones a realizar, pudiendo ser más de una (ingresar los elementos y operaciónes separados por un espacio)
+ 
+ Ej. "3.9 + 1 * 5.4 / sin ( 3 )"
 
 * Tomar en cuenta la jerarquía de operaciones y uso de ( ).
 
-* Los datos se ingresan por entrada estándar o como argumento del script.
+* La forma de ingresar la cadena es de libre elección (por argumento, por entrada estandar o ambos).
 
 ```bash
 # Ejemplo de ejecución (con argumento):
