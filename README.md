@@ -229,3 +229,70 @@ Utilizando el reporte generado de la práctica anterior (p2_apellido.txt), gener
 # Salida en terminal:
 El formato de las gráficas es libre
 ```
+## Práctica 4: Crawler
+
+Hacer un crawler en perl, que analice hasta dos niveles y genere un reporte (en un archivo) 
+con los enlaces encontrados en estructura de arbol.
+
+**Opcional:** Convertir rutas relativas a absolutas
+
+El sitio a analizar puede ser ingresado como argumento o entrada estándar, cualquiera de las dos o ambas.
+
+```bash
+# Ejemplo de ejecución:
+./p4_lapellido.pl "https://example.com"
+# o
+./p4_lapellido.pl
+> https://example.com
+
+```
+```bash
+# Ejemplo de salida del archivo p4_lapellido.txt:
+cat p4_lapellido.txt
+```
+```bash
+https://example.com/
+    https://example.com/
+        https://example.com/dir/data.jpg
+        robots.txt
+    https://example.com/dir/
+        /
+        https://example.com/dir/image.jpg
+        https://example.com/dir/image.jpg
+        ./doc.txt
+        ...
+    https://example.com/imagen.jpg
+    ...
+```
+## Práctica 5: calculadora científica
+
+Realizar una calculadora científica que contenga las funciones: 
+
+Seno, coseno, tangente, cotangente, operaciones aritmeticas(/ + - *), raíz cuadrada, potencia (sin usar función predefinida), factorial (sin usar función predefinida).
+
+* En el caso de operadores aritméticos se pueda usar más de una operación (Ingresar los elementos y operación separados por un espacio)
+
+* Tomar en cuenta la jerarquía de operaciones y uso de ( ).
+
+* Los datos se ingresan por entrada estándar.
+
+```bash
+# Ejemplo de ejecución (con argumento):
+./p5_lapellido.pl "1 + 3 * ( 10 - 8 + sin ( 10 * 7 ) ) + 7"
+
+```
+```bash
+# Ejemplo de salida:
+9.8190
+```
+```bash
+# Ejemplo de ejecución (sin argumento):
+./p5_lapellido.pl
+>1 + 2 + ( ( 5 * sin 25 ) / 5 / 10 ) - 3 ! - ( sqrt 4 + 3 ^ 5 )
+-247.57
+>1 + 3 * ( 10 - 8 + sin ( 10 * 7 ) ) + 7
+9.8190
+>( ( 2 + 1 ) * 3 ) !
+362880
+```
+
