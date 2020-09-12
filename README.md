@@ -274,7 +274,7 @@ Seno, coseno, tangente, cotangente, operaciones aritmeticas(/ + - *), raíz cuad
 
 * Tomar en cuenta la jerarquía de operaciones y uso de ( ).
 
-* Los datos se ingresan por entrada estándar.
+* Los datos se ingresan por entrada estándar o como argumento del script.
 
 ```bash
 # Ejemplo de ejecución (con argumento):
