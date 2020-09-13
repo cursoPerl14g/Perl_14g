@@ -314,3 +314,9 @@ Intrucciones
 ```bash
 # Ejemplo de cliente IRC en terminal
 ```
+
+![picture](img/p6_ej1.png)
+
+![picture](img/p6_ej2.png)
+
+
