@@ -309,7 +309,7 @@ Intrucciones
 
 4. Ingresar al canal, enviando mensajes aleatorios y mensajes que sean respondidos por el bot.
 
-**Nota:** Nosotros usamos el modulo POC::Component::IRC, en caso de que este descontinuado o ustedes así lo prefieran, pueden usar otro.
+**Nota:** Nosotros usamos el modulo POC::Component::IRC, pero pueden usar algún otro si así lo prefieren.
 
 ```bash
 # Ejemplo de cliente IRC en terminal
