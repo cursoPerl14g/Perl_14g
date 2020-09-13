@@ -297,4 +297,20 @@ Seno, coseno, tangente, cotangente, operaciones aritmeticas(/ + - *), raíz cuad
 >( ( 2 + 1 ) * 3 ) !
 362880
 ```
+## Práctica 6: Bot IRC
 
+Programar un bot en perl que ingrese al canal (nombre con el que entregan prácticas, primer letra del nombre seguido del apellido) y responda algunos mensajes públicos si cumplen algún patrón.
+
+Intrucciones
+
+1. Deberán instalar y configurar un servidor de IRC (usando repositorios de linux).
+
+3. Instalar un cliente y conectarse al servidor IRC a través de la terminal.
+
+4. Ingresar al canal, enviando mensajes aleatorios y mensajes que sean respondidos por el bot.
+
+**Nota:** Nosotros usamos el modulo POC::Component::IRC, en caso de que este descontinuado o ustedes así lo prefieran, pueden usar otro.
+
+```bash
+# Ejemplo de cliente IRC en terminal
+```
