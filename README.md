@@ -285,7 +285,7 @@ Seno, coseno, tangente, cotangente, operaciones aritmeticas(/ + - *), raíz cuad
 ```
 ```bash
 # Ejemplo de salida:
-9.8190
+16.8190
 ```
 ```bash
 # Ejemplo de ejecución (sin argumento):
@@ -293,7 +293,7 @@ Seno, coseno, tangente, cotangente, operaciones aritmeticas(/ + - *), raíz cuad
 >1 + 2 + ( ( 5 * sin 25 ) / 5 / 10 ) - 3 ! - ( sqrt 4 + 3 ^ 5 )
 -247.57
 >1 + 3 * ( 10 - 8 + sin ( 10 * 7 ) ) + 7
-9.8190
+16.8190
 >( ( 2 + 1 ) * 3 ) !
 362880
 ```
