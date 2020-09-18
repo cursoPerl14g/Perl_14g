@@ -339,4 +339,6 @@ Usando el código proporcionado en clase, terminar el keylogger que debe recibir
 
 **Nota:** El keylogger debe reconocer como mínimo, minúsculas y mayúsculas
 
+**Referencias:** [pack](https://perldoc.perl.org/functions/pack.html) [unpack](https://perldoc.perl.org/functions/unpack.html) [perlpacktut](https://perldoc.perl.org/perlpacktut.html)
+
 **Hint:** [Keylogger](https://www.youtube.com/watch?v=kgMrI2Dwwsw)
