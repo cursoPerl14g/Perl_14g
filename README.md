@@ -318,4 +318,25 @@ Intrucciones
 
 ![picture](img/p6_ej2.jpeg)
 
+## Práctica 7: Cifrado Vigenere
+Hacer un script que cifre y descifre un mensaje con el cifrado Vigenere. 
 
+Recibe como argumento el mensaje y la clave o si se ejecuta sin argumentos los pide por entrada estándar. 
+
+**Nota:** No utilizar módulos externos como Crypt::Vigenere.
+
+## Práctica 8: SSH Bruteforce
+Hacer un script que realice ataques de fuerza bruta para conectarse por medio de SSH.
+
+Recibe como argumentos el archivo de usuarios y el de contraseñas a probar.
+
+**Nota:** Preparar el ambiente local para que prueben su script.
+
+**Nota:** Pueden utilizar módulos externos para realizar las conexiones SSH.
+
+## Práctica 10: Keylogger
+Usando el código proporcionado en clase, terminar el keylogger que debe recibir como argumento el nombre de un archivo, en el cual se irán guardando todas las teclas presionadas mientras se esté ejecutando el keylogger.
+
+**Nota:** El keylogger debe reconocer como mínimo, minúsculas y mayúsculas
+
+**Hint:** [Keylogger](https://www.youtube.com/watch?v=kgMrI2Dwwsw)
