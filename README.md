@@ -338,7 +338,3 @@ Recibe como argumentos el archivo de usuarios y el de contraseñas a probar.
 Usando el código proporcionado en clase, terminar el keylogger que debe recibir como argumento el nombre de un archivo, en el cual se irán guardando todas las teclas presionadas mientras se esté ejecutando el keylogger.
 
 **Nota:** El keylogger debe reconocer como mínimo, minúsculas y mayúsculas
-
-**Referencias:** [pack](https://perldoc.perl.org/functions/pack.html) [unpack](https://perldoc.perl.org/functions/unpack.html) [perlpacktut](https://perldoc.perl.org/perlpacktut.html)
-
-**Hint:** [Keylogger](https://www.youtube.com/watch?v=kgMrI2Dwwsw)
